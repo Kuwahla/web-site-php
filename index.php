@@ -41,10 +41,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <i class="fa fa-eye w3-xxlarge"></i>
     <p>PORTFOLIO</p>
   </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <!--<a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
     <p>CONTACT</p>
-  </a>
+  </a>-->
 </nav>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
@@ -53,7 +53,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
     <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
-    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a> 
+<!--    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a> -->
   </div>
 </div>
 
@@ -91,7 +91,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </div><br>
     
 
-    <button class="w3-button w3-light-grey w3-padding-32 w3-section">
+    <button class="w3-button w3-light-grey w3-padding-16 w3-section">
       <a href="/pics/internResume.pdf" target="_blank"><i class="fa fa-download"></i> Download Resume</a>
     </button>
   </div>
