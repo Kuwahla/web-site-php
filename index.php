@@ -41,12 +41,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <i class="fa fa-eye w3-xxlarge"></i>
     <p>PORTFOLIO</p>
   </a>
-<!--
   <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
     <i class="fa fa-envelope w3-xxlarge"></i>
     <p>CONTACT</p>
   </a>
--->
 </nav>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
@@ -55,7 +53,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
     <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
     <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PORTFOLIO</a>
-    <!-- <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a> -->
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a> 
   </div>
 </div>
 
@@ -69,7 +67,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </header>
 
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
     <h2 class="w3-text-light-grey">Mike Provenzano</h2>
     <hr style="width:200px" class="w3-opacity">
     <p>Mike is a computer science student, he expects to graduate in Autumn, 2023. He seeks to work with others towards creating or upgrading large complex software. 
@@ -93,29 +91,21 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </div><br>
     
 
-    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+    <button class="w3-button w3-light-grey w3-padding-32 w3-section">
       <a href="/pics/internResume.pdf" target="_blank"><i class="fa fa-download"></i> Download Resume</a>
     </button>
   </div>
 
   <!-- Portfolio Section -->
-  <div class="w3-padding-large w3-content" id="photos">
+  <div class="w3-padding-32 w3-content" id="photos">
     <h2 class="w3-text-light-grey">Food Decision App</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <a href="https://play.google.com/store/apps/details?id=solo.miketheappsmith.fooddecisionapp" target="_blank"><img src="/pics/FDA.png" style="width:64;height:64;"></a> 
-
-    <!-- Grid for photos --
-   
-
-      <div class="w3-half">
-
-    </div> -->
-  <!-- End Portfolio Section -->
   </div>
 
   <!-- Contact Section -->
-  <div class="w3-padding-large w3-content w3-text-grey" id="contact">
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
     <hr style="width:200px" class="w3-opacity">
 
@@ -123,12 +113,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Portland, OR. US / South Korea, Seoul, Dongdaemun</p>
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: (US)+1 901-290-3499</p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto:cs.mike.pro@gmail.com">cs.mike.pro@gmail.com</a></p>
-    </div><br>
-
-    <a href="https://www.linkedin.com/in/michael-provenzano-398a7a253?trk=people-guest_people_search-card" target="_blank"><i class="fa fa-linkedin w3-hover-opacity fa-fw w3-text-white w3-xxlarge"></i></a> 
-    <a href="https://github.com/Mike-Proven" target="_blank"><i class="fa fa-github w3-hover-opacity fa-fw w3-text-white w3-xxlarge"></i></a>
-   <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
- 
+      <a href="https://www.linkedin.com/in/michael-provenzano-398a7a253?trk=people-guest_people_search-card" target="_blank"><i class="fa fa-linkedin w3-hover-opacity fa-fw w3-text-white w3-xxlarge"></i></a> 
+      <a href="https://github.com/Mike-Proven" target="_blank"><i class="fa fa-github w3-hover-opacity fa-fw w3-text-white w3-xxlarge"></i></a>
+      <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    </div>
   </div>
   
 
