@@ -96,88 +96,26 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <button class="w3-button w3-light-grey w3-padding-large w3-section">
       <a href="/pics/internResume.pdf" target="_blank"><i class="fa fa-download"></i> Download Resume</a>
     </button>
-
-<!--
-    !-- Grid for pricing tables --    
-    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half w3-margin-bottom">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">5GB Storage</li>
-          <li class="w3-padding-16">Mail Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 10</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-
-      <div class="w3-half">
-        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
-          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
-          <li class="w3-padding-16">Web Design</li>
-          <li class="w3-padding-16">Photography</li>
-          <li class="w3-padding-16">50GB Storage</li>
-          <li class="w3-padding-16">Endless Support</li>
-          <li class="w3-padding-16">
-            <h2>$ 25</h2>
-            <span class="w3-opacity">per month</span>
-          </li>
-          <li class="w3-light-grey w3-padding-24">
-            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
-          </li>
-        </ul>
-      </div>
-    !-- End Grid/Pricing tables --
-    </div>
-    
-    !-- Testimonials --
-    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
-    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
-    <p>John Doe saved us from a web disaster.</p><br>
-    
-    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
-    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
-    <p>No one is better than John Doe.</p>
-  !-- End About Section --
   </div>
--->
 
   <!-- Portfolio Section -->
-  <div class="w3-padding-64 w3-content" id="photos">
+  <div class="w3-padding-large w3-content" id="photos">
     <h2 class="w3-text-light-grey">Food Decision App</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <a href="https://play.google.com/store/apps/details?id=solo.miketheappsmith.fooddecisionapp" target="_blank"><img src="/pics/FDA.png" style="width:64;height:64;"></a> 
 
     <!-- Grid for photos --
-    <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/rocks.jpg" style="width:100%">
-        <img src="/w3images/sailboat.jpg" style="width:100%">
-      </div>
+   
 
       <div class="w3-half">
-        <img src="/w3images/underwater.jpg" style="width:100%">
-        <img src="/w3images/chef.jpg" style="width:100%">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/p6.jpg" style="width:100%">
-      </div>
-    !-- End photo grid -->
-    </div>
+
+    </div> -->
   <!-- End Portfolio Section -->
   </div>
 
   <!-- Contact Section -->
-  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+  <div class="w3-padding-large w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
     <hr style="width:200px" class="w3-opacity">
 
@@ -187,71 +125,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto:cs.mike.pro@gmail.com">cs.mike.pro@gmail.com</a></p>
     </div><br>
 
-    <!--
-    <p>Let's get in touch. Send me a message:</p>
-
-    <form action="index.php" method="POST">
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16" type="email" placeholder="Email" required name="Email"></p>
-      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-      <p><textarea class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></textarea></p>
-      <p>
-        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </p>
-    </form>
-    ?php
-
-    $m_sent = false;
-
-    if(isset($_POST['Email']) && $_POST['Email'] != ''){
-
-        if(filter_var($_POST['Email'], FILTER_VALIDATE_EMAIL)){
-        //submit form
-            $uName = $_POST['Name'];
-            $uEmail = $_POST['Email'];
-            $uSubject = $_POST['Subject'];
-            $uBody = $_POST['Message'];
-
-            $to = "cs.mike.pro@gmail.com";
-            $body = "";
-
-            $body .= "From: ".$uName. "\r\n";
-            $body .= "Email: ".$uEmail. "\r\n";
-            $body .= "Message: ".$uBody. "\r\n";
-
-            mail($to,$uSubject,$uBody);
-
-            $m_sent = true;
-
-
-        }
-    }
-    ?>
-    ?php
-    if(m_sent == true){
-        echo
-        "<h3>('Sent Successfully.</h3>";
-    }
-    ?>
-  !-- End Contact Section -->
-  </div>
-  
-    <!-- Footer -->
-  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
-<!--
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
--->
     <a href="https://www.linkedin.com/in/michael-provenzano-398a7a253?trk=people-guest_people_search-card" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
     <a href="https://github.com/Mike-Proven" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-  <!-- End footer -->
-  </footer>
+ 
+  </div>
+  
+
 
 <!-- END PAGE CONTENT -->
 </div>
