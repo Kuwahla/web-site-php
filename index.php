@@ -125,8 +125,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto:cs.mike.pro@gmail.com">cs.mike.pro@gmail.com</a></p>
     </div><br>
 
-    <a href="https://www.linkedin.com/in/michael-provenzano-398a7a253?trk=people-guest_people_search-card" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-    <a href="https://github.com/Mike-Proven" target="_blank"><i class="fa fa-github w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/michael-provenzano-398a7a253?trk=people-guest_people_search-card" target="_blank"><i class="fa fa-linkedin w3-hover-opacity fa-fw w3-text-white w3-xxlarge"></i></a> 
+    <a href="https://github.com/Mike-Proven" target="_blank"><i class="fa fa-github w3-hover-opacity fa-fw w3-text-white w3-xxlarge"></i></a>
    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
  
   </div>
