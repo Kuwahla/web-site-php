@@ -73,7 +73,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <p>Mike is a computer science student, he expects to graduate in Autumn, 2023. He seeks to work with others towards creating or upgrading large complex software. 
         He desires to be part of a team and to find his place in that team while giving value to all stakeholders. He feels more confident in backend development, but is willing to grow to the team's needs.<br><br>
         Mike's drive to return to programming was rekindled by his years as an ESL (English as a Second Language) teacher. He has lived and taught in China and South Korea since February 2017. He uses what he has learned in Web Development to create small web apps to teach his students.<br><br>
-        <a href="3kList/index.html" target="_blank">3k Word List</a> is one such app he has made for his more advanced students. It breaks down the 3,000 most used words in English into small lists of review & search to better help his students study.
+        <strong><a href="3kList/index.html" target="_blank">English in 15 Weeks!</a></strong> is one such app he has made for his more advanced students. It breaks down the 3,000 most used words in English into small lists of review & search to better help his students study. It was after making this and discovering <a href="https://www.uopeople.edu/" target="_blank">University of the People</a> that got him motivated towards chnging his career path towards Software Developer/Software Engineer.
 
     </p>
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
@@ -111,7 +111,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
     <div class="w3-section">
       <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Portland, OR. US / South Korea, Seoul, Dongdaemun</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: (US)+1 901-290-3499</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: (US, +1) 901-290-3499</p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto:cs.mike.pro@gmail.com">cs.mike.pro@gmail.com</a></p>
       <a href="https://www.linkedin.com/in/michael-provenzano-398a7a253?trk=people-guest_people_search-card" target="_blank"><i class="fa fa-linkedin w3-hover-opacity fa-fw w3-text-white w3-xxlarge"></i></a> 
       <a href="https://github.com/Mike-Proven" target="_blank"><i class="fa fa-github w3-hover-opacity fa-fw w3-text-white w3-xxlarge"></i></a>
