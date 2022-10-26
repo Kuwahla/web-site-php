@@ -109,14 +109,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <a href="/pics/pics/blockchainDevCert.pdf" target="_blank"><img src="/pics/pics/blockchainDevCert.jpg" style="width:100%"  alt="Mike's certificate for Blockchain Developer"></a>
   </div>
 
-  <!-- Contact Section -->
+  <!-- Contact Section 
+  <div class="w3-padding-16 w3-content w3-text-grey" id="contact"> -->
   <div class="w3-third">
-  <div class="w3-padding-16 w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
-      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Portland, OR. US / South Korea, Seoul, Dongdaemun</p>
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i>Portland, OR. US <br>South Korea, Seoul, Dongdaemun</p>
       <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: (US, +1) 901-290-3499</p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: <a href="mailto:cs.mike.pro@gmail.com">cs.mike.pro@gmail.com</a></p>
       <a href="https://www.linkedin.com/in/michael-provenzano-398a7a253?trk=people-guest_people_search-card" target="_blank"><i class="fa fa-linkedin w3-hover-opacity fa-fw w3-text-white w3-xxlarge"></i></a> 
