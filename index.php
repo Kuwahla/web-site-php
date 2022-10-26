@@ -28,7 +28,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <!-- Icon Bar (Sidebar - hidden on small screens) -->
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   <!-- Avatar image in top left corner -->
-  <img src="/pics/profile.jpg" style="width:100%">
+  <img src="/pics/profile.jpg" style="width:100%" alt="Mike's profile photo">
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
     <i class="fa fa-home w3-xxlarge"></i>
     <p>HOME</p>
@@ -63,7 +63,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
     <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Mike.</h1>
     <p>Software Developer / Software Engineer / Blockchain Developer</p>
-    <img src="/pics/profile.jpg" alt="Mike" class="w3-image" width="496" height="554">
+    <img src="/pics/profile.jpg"  alt="Mike's profile photo" class="w3-image" width="496" height="554">
   </header>
 
   <!-- About Section -->
@@ -102,9 +102,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <h2 class="w3-text-light-grey">Food Decision App</h2>
     <hr style="width:200px" class="w3-opacity">
 
-    <a href="https://play.google.com/store/apps/details?id=solo.miketheappsmith.fooddecisionapp" target="_blank"><img src="/pics/FDA.png" style="width:64;height:64;"></a> 
+    <a href="https://play.google.com/store/apps/details?id=solo.miketheappsmith.fooddecisionapp" target="_blank"><img src="/pics/FDA.png" style="width:64;height:64;"  alt="Logo for Food Decision App"></a> 
 </div><div class="w3-half">
-  <img src="/pics/pics/blockchainDevCert.pdf" style="width:100%">
+    <h2 class="w3-text-light-grey">Certificates</h2>
+    <hr style="width:200px" class="w3-opacity">
+  <a href="/pics/pics/blockchainDevCert.pdf" target="_blank"><img src="/pics/pics/blockchainDevCert.jpg" style="width:100%"  alt="Mike's certificate for Blockchain Developer"></a>
   </div></div>
 
   <!-- Contact Section -->
