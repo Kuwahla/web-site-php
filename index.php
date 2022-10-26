@@ -106,8 +106,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 </div><div class="w3-third">
     <h2 class="w3-text-light-grey">Certificates</h2>
     <hr style="width:200px" class="w3-opacity">
-  <a href="/pics/blockchainDevCert.pdf" target="_blank"><img src="/pics/blockchainDevCert.png" style="width:100%"  alt="Mike's certificate for Blockchain Developer"></a>
-  </div>
+  <p><a href="/pics/blockchainDevCert.pdf" target="_blank"><img src="/pics/blockchainDevCert.png" style="width:90%"  alt="Mike's certificate for Blockchain Developer"></a></p>
+  <p><img src="/pics/WebDevCert.jpg" style="width:90%"  alt="Mike's certificate for Web Developer"></p>  
+</div>
 
   <!-- Contact Section 
   <div class="w3-padding-16 w3-content w3-text-grey" id="contact"> -->
