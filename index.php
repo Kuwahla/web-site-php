@@ -103,7 +103,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <hr style="width:200px" class="w3-opacity">
 
     <a href="https://play.google.com/store/apps/details?id=solo.miketheappsmith.fooddecisionapp" target="_blank"><img src="/pics/FDA.png" style="width:64;height:64;"></a> 
-  </div><div class="w3-half">
+  
   <h1>???</h1>
   </div></div>
 
