@@ -98,18 +98,19 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
   <!-- Portfolio Section -->
   <div class="w3-padding-32 w3-content" id="photos">
-  <div class="w3-half">
+  <div class="w3-third">
     <h2 class="w3-text-light-grey">Food Decision App</h2>
     <hr style="width:200px" class="w3-opacity">
 
     <a href="https://play.google.com/store/apps/details?id=solo.miketheappsmith.fooddecisionapp" target="_blank"><img src="/pics/FDA.png" style="width:64;height:64;"  alt="Logo for Food Decision App"></a> 
-</div><div class="w3-half">
+</div><div class="w3-third">
     <h2 class="w3-text-light-grey">Certificates</h2>
     <hr style="width:200px" class="w3-opacity">
   <a href="/pics/pics/blockchainDevCert.pdf" target="_blank"><img src="/pics/pics/blockchainDevCert.jpg" style="width:100%"  alt="Mike's certificate for Blockchain Developer"></a>
-  </div></div>
+  </div>
 
   <!-- Contact Section -->
+  <div class="w3-third">
   <div class="w3-padding-16 w3-content w3-text-grey" id="contact">
     <h2 class="w3-text-light-grey">Contact Me</h2>
     <hr style="width:200px" class="w3-opacity">
@@ -122,7 +123,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
       <a href="https://github.com/Mike-Proven" target="_blank"><i class="fa fa-github w3-hover-opacity fa-fw w3-text-white w3-xxlarge"></i></a>
       <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
     </div>
+  </div></div>
   </div>
+
   
 
 
