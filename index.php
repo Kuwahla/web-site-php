@@ -103,6 +103,11 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <hr style="width:200px" class="w3-opacity">
 
     <a href="https://play.google.com/store/apps/details?id=solo.miketheappsmith.fooddecisionapp" target="_blank"><img src="/pics/FDA.png" style="width:64;height:64;"  alt="Logo for Food Decision App"></a> 
+
+    <button class="w3-button w3-light-grey w3-padding-16 w3-section">
+      <a href="https://github.com/Mike-Proven/My_First_Published_App" target="_blank">APP's CODE</a>
+    </button>
+
 </div><div class="w3-third">
     <h2 class="w3-text-light-grey">Certificates</h2>
     <hr style="width:200px" class="w3-opacity">
