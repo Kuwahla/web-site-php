@@ -111,6 +111,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 </div><div class="w3-third">
     <h2 class="w3-text-light-grey">Certificates</h2>
     <hr style="width:200px" class="w3-opacity">
+    <p><a href="https://www.freecodecamp.org/certification/fccefe88fbf-9406-49ac-a8cc-8f11e4a77d19/javascript-algorithms-and-data-structures" target="_blank"><img src="/pics/jsCert.png" style="width:90%"  alt="Mike's certificate for JavaScript"></a></p>
   <p><a href="/pics/blockchainDevCert.pdf" target="_blank"><img src="/pics/blockchainDevCert.png" style="width:90%"  alt="Mike's certificate for Blockchain Developer"></a></p>
   <p><img src="/pics/WebDevCert.jpg" style="width:90%"  alt="Mike's certificate for Web Developer"></p>  
 </div>
